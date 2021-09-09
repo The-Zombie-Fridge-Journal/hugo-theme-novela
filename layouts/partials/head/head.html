@@ -12,4 +12,14 @@
     {{ with .Params.forestry_instant_preview_id }}
       {{- safeHTML (printf "<meta property='forestry_instant_preview_id' content='%s'>" .) -}}
     {{ end -}}
+    
+    // css 
+    {{ range .Site.Params.custom_css -}}
+        <link rel="stylesheet" href="{{ . | absURL }}">
+    {{- end }}
+    
+    // javascript
+    {{ range .Site.Params.custom_js -}}
+        <script type="text/javascript" src="{{ . | absURL }}"></script>
+    {{- end }}
 </head>
