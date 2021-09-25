@@ -1,4 +1,4 @@
-# Hugo Novela
+# ZFJ Fork of the Theme Hugo Novela
 
 A port of [Narative](https://www.narative.co/)'s Gatsby theme [Novela](https://www.narative.co/labs/novela/)
 
