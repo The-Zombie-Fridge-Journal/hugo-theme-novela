@@ -2,7 +2,7 @@
 
 THIS IS A FORK OF THE THEME HUGO NOVELA FOR THE USE OF THE ZFJ. 
 
-A port of [Narative](https://www.narative.co/)'s Gatsby theme [Novela](https://www.narative.co/labs/novela/)
+It is also a port of [Narative](https://www.narative.co/)'s Gatsby theme [Novela](https://www.narative.co/labs/novela/)
 
 **This theme requires Hugo extended > 0.65.0**
 
