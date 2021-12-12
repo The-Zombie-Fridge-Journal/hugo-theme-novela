@@ -12,7 +12,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with: 
-          repository: The-Zombie-Fridge-Journal/zfjournal_source
+          repository: theZFJ/zfjournal_source
           token: ${{ secrets.SYNC_TOKEN }}
 
       - name: Pull & update submodules recursively
